@@ -1,0 +1,26 @@
+1 git --version
+ 2 mkdir git-02-06
+ 3 cd git-02-06/
+ 5  git init
+ 6  ls -la
+ 7  cd .git
+ 8  ls -l
+ 9  cd ..
+ 11  python3 --version
+ 12  nano first-code.py
+ 13  python3 first-code.py
+ 14  git status
+ 15  git add first-code.py
+ 16  git status
+ 17  git commit -m "first commit to python code"
+ 18 git config --global user.name "Bukola84"
+ 19  git config --global user.email "rosedion4mum@gmail.com"
+ 21  git config --list
+ 22  git commit -m "first commit to python code"
+
+git branch -M main
+git remote add origin https://github.com/Bukola84/git-02-06.git
+git push -u origin main
+
+
+Generate the personal access token from setting-developer setting-personal access token- generate new token and save
